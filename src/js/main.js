@@ -412,6 +412,46 @@ function buildCard(event, index, events, onSelect) {
   highlight.setAttribute("stroke", "#17aaff77");
   highlight.setAttribute("stroke-width", 20);
   svg.insertBefore(highlight, title);
+
+  if (event.media) {
+    const overlay = document.createElement("div");
+    overlay.className = "imageOverlay";
+    overlay.style.display = "none";
+    overlay.addEventListener("click", () => {
+      iframe.style.display = "none";
+      overlay.style.display = "none";
+    });
+    document.body.appendChild(overlay);
+
+    const iframe = document.createElement("iframe");
+    iframe.width = "50";
+    iframe.height = "50";
+    iframe.src = event.media;
+    iframe.style.display = "none";
+    iframe.className = "thoughtBubble";
+    document.body.appendChild(iframe);
+
+    const imgBtn = document.createElementNS(svgNS, "g");
+    imgBtn.style.cursor = "pointer";
+    imgBtn.addEventListener("click", () => {
+      if (iframe.style.display === "none") {
+        iframe.style.display = "block";
+        overlay.style.display = "block";
+      } else {
+        iframe.style.display = "none";
+        overlay.style.display = "none";
+      }
+    });
+    svg.appendChild(imgBtn);
+
+    const clipImg = document.createElementNS(svgNS, "image");
+    clipImg.setAttribute("href", "./images/img.png");
+    clipImg.setAttribute("x", screenWidth - 200);
+    clipImg.setAttribute("y", 86);
+    clipImg.setAttribute("class", "img");
+    clipImg.style.filter = "drop-shadow(3px 3px 3px rgba(66, 71, 85, 0.67))";
+    imgBtn.appendChild(clipImg);
+  }
 }
 
 /* wrapText and fitTextToLines: ebb: These next functions help out
