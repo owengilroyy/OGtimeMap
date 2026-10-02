@@ -3,156 +3,88 @@
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
 <?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
- <track type="1" name="war">
+ <track type="1" name="early">
+   
    <event>
-     <title>Dr. B Graduates College</title>
+     <title>Founding of Jamestown</title>
      <date type="start">
        <year>1993</year>
        <month>05</month>
        <era>AD</era>
      </date>
-     <date type="end">
-       <year>1995</year>
-       <month>05</month>
-       <era>AD</era>
-     </date>
-     <description>Dr. B graduates from Washington and Jefferson College, and looks ahead to starting grad school at Penn State.</description>
-     <lat>40.174</lat><!-- POINT THESE to Washington, PA -->
-     <lon>-80.2462</lon>
+     <!--  <date type="end">
+    </date>-->
+    <description>Founding of Jamestown: first English colony in North America </description>
+     <lat>37.2250</lat>
+     <lon>-76.7862</lon>
    </event>
+  
    <event>
-     <title>Dr. B works on something</title>
+     <title>Signing of the Declaration of Independence</title>
      <date type="start">
-       <year>1990</year>
-       <month>05</month>
+       <year>1776</year>
+       <month>07</month>
        <era>AD</era>
      </date>
-     <date type="end">
-       <year>2005</year>
-       <month>05</month>
-       <era>AD</era>
-     </date>
-     <description>Dr. B works on something that overlaps in time.</description>
-     <lat>42.174</lat><!-- POINT THESE to Washington, PA -->
-     <lon>-80.2462</lon>
-     
-     
-   </event>
-   
-   
-  <event>
-    <title>Julius Caesar invades Britain</title>
-    <date type="start">
-      <year>0080</year>
-      <era>BC</era>
-    </date>
-    <date type="end">
-      <year>0054</year>
-      <era>BC</era>
-    </date>
-    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
-    <lat>51.1789</lat>
-    <lon>1.1713</lon>
-  </event>
-
-  <event>
-    <title>Battle of Actium</title>
-    <date type="start">
-      <year>0031</year>
-      <month>09</month>
-      <era>BC</era>
-    </date>
-    <date type="end">
-    <year>0010</year>
-    <month>07</month>
-    <era>BC</era>
-    </date>
-    <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
-    <lat>38.9419</lat>
-    <lon>20.7400</lon>
-  </event>
-   <event>
-     <title>Owen's first theatre performance</title>
-     <date type="start">
-       <year>2015</year>
-       <era>AD</era>
-     </date>
-     <date type="end">
-       <year>2015</year>
-       <era>AD</era>
-     </date>
-     <description>My first theatre performance at the Blasco Library</description>
-     <lat>42.1368</lat>
-     <lon>-80.0864</lon>
-   </event>
-  </track>
+     <!--  <date type="end">
+    </date>-->
+     <description>Congress adopts Declaration of Independence, severing ties with Great Britain.</description>
+     <lat>39.94889</lat>
+     <lon>-75.15002</lon>
+    </event>
+   </track>
  
  <track type="2" name="mid">
-  <event>
-    <title>Storming of the Bastille</title>
+  
+   <event>
+    <title>The Lousiana Purchase</title>
     <date type="start">
-      <year>1789</year>
-      <month>07</month>
-      <day>14</day>
+      <year>1803</year>
+      <month>04</month>
+      <day>30</day>
       <era>AD</era>
     </date>
 <!--    <date type="end">
     </date>-->
-    <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
-    <lat>48.8533</lat>
-    <lon>2.3692</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Prise_de_la_Bastille.jpg/640px-Prise_de_la_Bastille.jpg</media>
-  </event>
- 
-  <event>
-    <title>Declaration of the Rights of Man</title>
-    <date type="start">
-      <year>1789</year>
-      <month>08</month>
-      <day>26</day>
-      <era>AD</era>
-    </date>
-  <!--  <date type="end">
-    </date>-->
-    <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
-    <lat>48.8566</lat>
-    <lon>2.3522</lon>
-  </event>
- 
-  <event>
-    <title>Execution of Louis XVI</title>
-    <date type="start">
-      <year>1793</year>
-      <month>01</month>
-      <day>21</day>
-      <era>AD</era>
-    </date>
-<!--    <date type="end">
-    </date>-->
-    <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
-    <lat>48.8656</lat>
-    <lon>2.3212</lon>
-  </event>
- </track>
+    <description>Thomas Jefferson doubles the size of the US.</description>
+    <lat>48.866617</lat>
+    <lon>2.338486</lon>
+    <media>https://history.state.gov/milestones/1801-1829/louisiana-purchase</media>
+  </event> 
+   
+   <event> <title>American Civil War</title>
+     <date type="start">
+       <year>1861</year>
+       <month>12</month>
+       <day>04</day>
+       <era>AD</era>
+     </date>
+     <date type="end">
+       <year>1865</year>
+       <month>04</month>
+       <day>9</day>
+       <era>AD</era>
+     </date>
+     <description>Conflict between the Northern and Southern states over slavery and states' rights.</description>
+     <lat>32.75222</lat>
+     <lon>-79.87472</lon></event>
+    </track>
 
 <track type="3" name="late">
-  <event>
-    <title>Napoleon crowned Emperor</title>
+  
+   <event>
+    <title>Apollo 11 Moon Landing</title>
     <date type="start">
-      <year>1804</year>
-      <month>12</month>
-      <day>02</day>
+      <year>1969</year>
+      <month>07</month>
+      <day>20</day>
       <era>AD</era>
     </date>
-    <date type="end">
-      <year>1814</year>
-      <era>AD</era>
-    </date>
-    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.
-    His first reign as Emperor ends when he abdicates in 1814</description>
-    <lat>48.8530</lat>
-    <lon>2.3499</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg/480px-David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg</media>
+    <!--    <date type="end">
+    </date>-->
+    <description>Huge milestone in Space Race against the Soviet Union</description>
+    <lat>28.608389</lat>
+    <lon>-80.604333</lon>
   </event>
  </track>
-</events>
+</events> 
