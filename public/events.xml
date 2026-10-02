@@ -71,6 +71,20 @@
     <lat>38.9419</lat>
     <lon>20.7400</lon>
   </event>
+   <event>
+     <title>Owen's first theatre performance</title>
+     <date type="start">
+       <year>2015</year>
+       <era>AD</era>
+     </date>
+     <date type="end">
+       <year>2015</year>
+       <era>AD</era>
+     </date>
+     <description>My first theatre performance at the Blasco Library</description>
+     <lat>42.1368</lat>
+     <lon>-80.0864</lon>
+   </event>
   </track>
  
  <track type="2" name="mid">
