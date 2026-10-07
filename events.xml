@@ -6,6 +6,19 @@
  <track type="1" name="early">
    
    <event>
+     <title>Trying a super early date to test the plotting</title>
+     <date type="start">
+       <year>0010</year>
+       <month>01</month>
+       <day>25</day>
+       <era>BC</era>
+     </date>
+     <description>Something happened at this location, but it wasn't recorded. Testing to see if you need a much earlier date for all the events to be plotted?</description>
+     <lat>42.3333</lat>
+     <lon>-70.9667</lon>
+   </event>
+   
+   <event>
      <title>Founding of Jamestown</title>
      <date type="start">
        <year>1993</year>
